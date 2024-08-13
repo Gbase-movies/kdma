@@ -1,0 +1,19 @@
+RewriteEngine On
+
+#This is for Page
+RewriteRule ^recently-added-raw([^/\.]+)?$ recently-added-raw.php [L]
+RewriteRule ^recently-added-dub([^/\.]+)?$ recently-added-dub.php [L]
+RewriteRule ^movies([^/\.]+)?$ movies.php [L]
+RewriteRule ^kshow([^/\.]+)?$ kshow.php [L]
+RewriteRule ^popular([^/\.]+)?$ popular.php [L]
+RewriteRule ^ongoing-series([^/\.]+)?$ ongoing-series.php [L]
+RewriteRule ^videos/([^/\.]+)?$ watch.php?anime_ep=$1 [L]
+RewriteRule ^search.html$ search.php [L]
+RewriteRule ^ajax-search.html$ ajax-search.php [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

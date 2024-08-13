@@ -1,0 +1,27 @@
+THE SCRIPT IS READY YOU CAN TRY IT WITHOUT INSTALLING THE API.
+because as you can see on config.php they same sample api domain.
+
+How to Online the script?
+1. Go to your hosting like cpanel and upload "kshow.zip" on your website directory like
+"public_html"
+
+2. Open your domain and you will see.
+
+-------------------------------------------------
+How to add Ads on player?
+1. Go to main script and find player-fembed.php
+and you can add your own vast and popup ads.
+
+-------------------------------------------------
+How to Edit the Title and others?
+1. Go to config.php and edit some config.
+
+2. "img" folder for logo and favicon.
+
+-------------------------------------------------
+How to Config the API Script. (OPTIONAL)
+1. First Install the "DramaAPI.zip" on your hosting its NodeJS.
+you can watch on youtube how to deploy the nodejs app.
+
+2. Once you already install the api. get the api domain link
+and go to the main script and find config.php and edit the api domain.
